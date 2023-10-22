@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: AvenirNextCyr-Regular;
+  src: url(../../assets/fonts/AvenirNextCyr/AvenirNextCyr-Regular.ttf);
+}
+
+/* small screen footer container */
+.ss-footer-container {
+  width: 100%;
+  background-color: #B9B39B;
+  font-family: AvenirNextCyr-Regular;
+  font-size: 2.778vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 451px) {
+  /* small screen footer container */
+  .ss-footer-container {
+    display: none;
+  }
+}

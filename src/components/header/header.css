@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* small screen header container */
+.ss-header-container {
+  width: 100%;
+  height: 3.941vh;
+  background-color: #B9B39B;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  /* small screen header logo */
+  .ss-header-logo {
+    height: 100%;
+    margin-left: 8.511%;
+  }
+
+  /* small screen header navigation icon */
+  .ss-header-navigation-icon {
+    position: absolute;
+    right: 0px;
+    margin-right: 8.511%;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+  }
+
+  .ss-header-navigation-icon div {
+    width: 100%;
+    height: 20%;
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  /* small screen header container */
+  .ss-header-container {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+  /* small screen header container */
+  .ss-header-container {
+
+      /* small screen header navigation icon */
+    .ss-header-navigation-icon {
+      width: 37.5px;
+      height: 37.5px;
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  /* small screen header container */
+  .ss-header-container {
+
+      /* small screen header navigation icon */
+    .ss-header-navigation-icon {
+      width: 35.8px;
+      height: 35.8px;
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  /* small screen header container */
+  .ss-header-container {
+
+      /* small screen header navigation icon */
+    .ss-header-navigation-icon {
+      width: 34.5px;
+      height: 34.5px;
+    }
+  }
+}
+
+@media screen and (max-width: 393px) {
+  /* small screen header container */
+  .ss-header-container {
+
+      /* small screen header navigation icon */
+    .ss-header-navigation-icon {
+      width: 32.75px;
+      height: 32.75px;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* small screen header container */
+  .ss-header-container {
+
+      /* small screen header navigation icon */
+    .ss-header-navigation-icon {
+      width: 31.25px;
+      height: 31.25px;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  /* small screen header container */
+  .ss-header-container {
+
+      /* small screen header navigation icon */
+    .ss-header-navigation-icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+
+
