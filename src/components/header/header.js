@@ -4,6 +4,16 @@ import oratorriComunicazioniLogo1 from '../../assets/index/oratorri-comunicazion
 
 export default function Header() {
 
+  /* download services pdf on click function */
+  function downloadServices() {
+    const servicesURL = '/oratorri_comunicazioni_services.pdf';
+    const link = document.createElement('a');
+    link.href = servicesURL;
+    link.target = '_blank';
+    link.download = 'oratorri-comunicazioni-services.pdf'; 
+    link.click();
+  };
+
   /* part of code that renders */
   return (
     <div>
@@ -25,6 +35,39 @@ export default function Header() {
           <div></div>
           <div></div>
         </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+      {/* large screen header container */}
+      <div className='ls-header-container'>
+        
+        {/* large screen header navigation */}
+        <div className='ls-header-navigation'>
+          <ul>
+            <li>Naslovna</li>
+            <li>Usluge</li>
+            <li>Portofolio</li>
+            <li><strong onClick={downloadServices}>Cenovnik</strong></li>
+            <li>Kontakt</li>
+          </ul>
+        </div>
+
+        {/* large screen header logo */}
+        <img
+          className='ls-header-logo' 
+          src={oratorriComunicazioniLogo1}
+          onContextMenu={(e) => {e.preventDefault()}}
+          alt='oratorri-comunicazioni-logo'
+        />
 
       </div>
 

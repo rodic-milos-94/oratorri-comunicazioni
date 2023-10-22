@@ -1,7 +1,7 @@
 {
   "name": "oratorri-comunicazioni",
   "version": "0.1.0",
-  "homepage": "https://rodic-milos-94.github.io/oratorri-comunicazioni",
+  "homepage": "https://oratorri.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

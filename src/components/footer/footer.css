@@ -9,6 +9,136 @@
   src: url(../../assets/fonts/AvenirNextCyr/AvenirNextCyr-Regular.ttf);
 }
 
+/* large screen footer container */
+.ls-footer-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+/* large screen footer container container */
+.ls-footer-container-container {
+  width: 88vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2.963vh;
+}
+
+/* large screen footer paragraph 1 container */
+.ls-footer-paragraph-1-container {
+  width: 88vw;
+  text-align: right;
+  
+}
+
+.ls-footer-paragraph-1-container ul {
+  display: inline-flex;
+  gap: 3vw;
+}
+
+.ls-footer-paragraph-1-container ul li {
+  list-style: none;
+}
+
+/* large screen footer logo & paragraph 2 container */
+.ls-footer-logo-paragraph-2-container {
+  width: 88vw;
+  display: flex;
+  flex-direction: row;
+}
+
+/* large screen footer logo container */
+.ls-footer-logo-container {
+  width: 12%;
+  height: 100%;
+}
+
+.ls-footer-logo-container img {
+  width: 100%;
+}
+
+/* large screen footer paragraph 2 container */
+.ls-footer-paragraph-2-container {
+  width: 88%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 5vw;
+}
+
+.ls-footer-paragraph-2-container p { 
+  font-family: AvenirNextCyr-Regular;
+}
+            
+
+
+
+@media screen and (max-width: 450px) {
+  /* large screen footer container */
+  .ls-footer-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* large screen footer paragraph 1 container */
+  .ls-footer-paragraph-1-container ul li {
+    font-size: 14px;
+  }
+
+  /* large screen footer paragraph 2 container */
+  .ls-footer-paragraph-2-container p { 
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  /* large screen footer paragraph 1 container */
+  .ls-footer-paragraph-1-container ul li {
+    font-size: 16px;
+  }
+
+  /* large screen footer paragraph 2 container */
+  .ls-footer-paragraph-2-container p { 
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  /* large screen footer paragraph 1 container */
+  .ls-footer-paragraph-1-container ul li {
+    font-size: 20px;
+  }
+
+  /* large screen footer paragraph 2 container */
+  .ls-footer-paragraph-2-container p { 
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  /* large screen footer paragraph 1 container */
+  .ls-footer-paragraph-1-container ul li {
+    font-size: 12px;
+  }
+
+  /* large screen footer paragraph 2 container */
+  .ls-footer-paragraph-2-container p { 
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 /* small screen footer container */
 .ss-footer-container {
   width: 100%;

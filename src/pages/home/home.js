@@ -19,11 +19,11 @@ export default function Home() {
   /* part of code that renders */
   return (
 
-    /* all screen index container */
-    <div className='index-container'>
+    /* all screen home container */
+    <div className='home-container'>
       
-      {/* small screen index container */}
-      <div className='ss-index-container'>
+      {/* small screen home container */}
+      <div className='ss-home-container'>
         <Header />
 
         {/* small screen home image container */}
@@ -60,6 +60,43 @@ export default function Home() {
                 PREUZMITE PONUDU
             </strong>
           </p>
+        </div>
+
+        <Footer />
+      </div>
+
+
+
+
+
+
+
+
+
+
+      {/* large screen home container */}
+      <div className='ls-home-container'>
+        <Header />
+
+        {/* large screen home image & paragraph 1 container */}
+        <div className='ls-home-image-paragraph-1-container'>
+
+          {/* large screen home image container */}
+          <div className='ls-home-image-container'>
+            <img 
+              src={caoCao}
+              onContextMenu={(e) => {e.preventDefault()}}
+              alt='oratorri-comunicazioni-ćao-ćao'/>
+          </div>
+
+          {/* large screen home paragraph-1 container */}
+          <div className='ls-home-paragraph-1-container'>
+            <p>Creative</p>
+            <p>Studio</p>
+            <p>+ Marketing</p>
+            <p className='ls-home-paragraph-1-agency'>Agency</p>
+          </div>
+
         </div>
 
         <Footer />
